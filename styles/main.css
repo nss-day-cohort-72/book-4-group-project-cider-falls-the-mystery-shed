@@ -1,7 +1,8 @@
 main {
     position: relative;
     padding: 20px;
-    height: 100vh; /* Ensure it takes the full viewport height */
+    height: 70vh; /* Ensure it takes the full viewport height */
+    font-family: "Copperplate", fantasy;
 }
 
 body {
@@ -16,29 +17,39 @@ header {
     padding: 20px;
     background-color: #f0f0f0;
     border-bottom: 2px solid #ccc;
+    height: 400px;
 }
 
 header h1 {
     font-family: "Copperplate", fantasy;
     font-size: 80px;
     color: #333;
+    position: relative;
+    bottom: 40px;
+}
+header img {
+    height: 200px;
+    width: 200px;
 }
 
 /* Service Bar Styles */
 .service_bar {
     text-align: left;
     width: auto;
-    height: 70px;
+    height: 65px;
     border: 2px solid black;
     margin-bottom: 20px;
     position: relative;
-    top: 20px;
+    bottom: 70px;
 }
 
 .service_list {
     display: inline;
-    padding: 13px;
+    padding: 15px;
     font-size: 1.5rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: "Copperplate", fantasy;
 }
 
 .area_container {
@@ -57,12 +68,20 @@ header h1 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+.area-name {
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
 .guest_container {
     position: absolute;
     right: 20px; /* Distance from the right edge */
-    top: 92px; /* Distance from the top edge */
+    top: 100px; /* Distance from the top edge */
     width: 300px; /* Adjust width as needed */
-    height: 490px; /* Adjust height as needed */
+    height: 500px; /* Adjust height as needed */
     background-color: #ccc;
     overflow-y: auto;
     border-radius: 8px;
@@ -78,4 +97,5 @@ header h1 {
 .contact_info p {
     margin: 5px 0;
     font-size: 1rem;
+    font-family: "Copperplate", fantasy;
 }
